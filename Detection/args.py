@@ -1,5 +1,5 @@
-SOURCE_VIDEO_PATH = r"/home/pamudu/Desktop/BEES/Data_preparation/generated_video/rec_8.avi"
-
+SOURCE_VIDEO_PATH = r"/home/pamudu/Desktop/BEES/Data_preparation/generated_video/rec_2.avi"
+SAVE_VIDEO_PATH = r'/home/pamudu/Desktop/BEES/Detection/results/save_2.mp4'
 
 YOLO_MODEL_PATH = r'/home/pamudu/Desktop/BEES/Detection/Yolo_model_files/best.pt'
 

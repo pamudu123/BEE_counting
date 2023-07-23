@@ -35,7 +35,7 @@ print("supervision.__version__:", supervision.__version__)
 
 ## save and load video paths
 source_video_path = args.SOURCE_VIDEO_PATH
-target_video_path = f"{HOME}/bee-counting-result_13.mp4"
+target_video_path = args.SAVE_VIDEO_PATH
 
 ## SETUP YOLO MODEL ##
 model = YOLO( args.YOLO_MODEL_PATH)
