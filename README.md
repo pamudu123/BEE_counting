@@ -13,6 +13,7 @@ For efficient object tracking, the **Byte-Track** algorithm was used due to its 
 This project is currently ongoing, and the team is continuously working to improve the bee counting system for greater efficiency and accuracy.
 
 <hr>
-[//Results/bee_counting_results_1.gif]: # (Replace "path_to_gif_image.gif" with the actual path or URL of your gif image.)
+
+<IMG SRC="Results/bee_counting_results_1.gif">
 
 
