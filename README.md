@@ -15,10 +15,27 @@ In the initial stage of this project, a video-capturing setup was not available.
 The **YOLOv8** object detection model was chosen and trained for identifying **Poland** and **non-Poland bees**. 
 For efficient object tracking, the **Byte-Track** algorithm was used due to its excellent speed and accuracy.
 
-This project is currently ongoing, and the team is continuously working to improve the bee counting system for greater efficiency and accuracy.
-
 <hr>
 
 <IMG SRC="Results/bee_counting_results_1.gif">
 
+<hr>
+<hr>
+
+## GUI
+
+
+| Realtime Camera | Processing | Processing | Process Stoped |
+|---------|---------|---------|---------|
+| ![realtime camera image](Results/GUI_images/screenshot_2.png) | ![processing_bee_video](Results/GUI_images/screenshot_3.png) | ![processing_bee_video](Results/GUI_images/screenshot_4.png) | ![process stop](Results/GUI_images/screenshot_5.png)
+
+
+The GUI is designed using the PySide6 Python library.
+
+**GUI App Features**
+
+The user can capture bee statistics in real-time, and they can set a time limit in seconds, minutes, or hours.
+Once the time limit is reached, the process stops. Additionally, users can halt the process in the middle of capturing.
+
+Users also have the ability to upload recorded videos. The app will then provide bee statistics based on the uploaded video.
 
