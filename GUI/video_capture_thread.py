@@ -34,11 +34,9 @@ class VideoFeedThread(QRunnable):
 
     @Slot()
     def run_realtime(self):
-        print("TRACK")
         self.cap = cv2.VideoCapture(args.CAMERA_IDX)
 
         while self.process_started:
-            print("TRACK")
             print(self.process_started)
             ret, frame = self.cap.read()
             raw_frame = frame.copy()

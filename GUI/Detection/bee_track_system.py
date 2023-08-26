@@ -31,8 +31,6 @@ from Detection import detection_args
 
 class BeeTrackingSystem:
     def __init__(self,camera_feed = True):
-        # HOME = os.getcwd()
-        # sys.path.append(f"{HOME}/Detection/ByteTrack")
         self.camera_feed = camera_feed
         self.initialize_components()
 

@@ -13,6 +13,7 @@ from PySide6.QtWidgets import (
 )
 
 from MainWindow import Ui_MainWindow
+
 ## import custom functions
 import args
 from time_thread import TimerThread
@@ -100,6 +101,12 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         self.video_process_label.setPixmap(QPixmap())
 
         self.selected_file_label.setText("Stop Process")
+
+        # Counter to Zero
+        self.poland_in_lcd.display(0)
+        self.poland_out_lcd.display(0)
+        self.nonpoland_in_lcd.display(0)
+        self.nonpoland_out_lcd.display(0)
 
     def set_time_elapsed(self,time_sec):
         time_str = utils.get_time_string(time_sec)
