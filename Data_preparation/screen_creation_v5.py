@@ -13,7 +13,7 @@ import folder_manager
 from annotaion_generator import create_pascal_voc_annotations
 
 
-frame_height = args.VIDEO_HEIGHT
+frame_height = args.VIDEO_HEIGHT 
 frame_width = args.VIDEO_WIDTH
 
 image = np.ones((frame_height, frame_width, 3), dtype=np.uint8) * 255

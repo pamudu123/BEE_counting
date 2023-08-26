@@ -1,0 +1,10 @@
+import numpy as np
+
+
+CAMERA_IDX = 0
+
+DISP_IMAGE_WIDTH  = 750
+DISP_IMAGE_HEIGHT = 480
+
+END_VIDEO_INDICATION = np.array([-1])
+
