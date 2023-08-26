@@ -30,12 +30,12 @@ For efficient object tracking, the **Byte-Track** algorithm was used due to its 
 | ![realtime camera image](Results/GUI_images/screenshot_2.png) | ![processing_bee_video](Results/GUI_images/screenshot_4.png) | ![process stop](Results/GUI_images/screenshot_5.png)
 
 
-The GUI is designed using the PySide6 Python library.
+The GUI is designed using the **PySide6** Python library.
 
 **GUI App Features**
 
-The user can capture bee statistics in real-time, and they can set a time limit in seconds, minutes, or hours.
-Once the time limit is reached, the process stops. Additionally, users can halt the process in the middle of capturing.
+- The user can monitor bee statistics in real-time, and they can set a time limit in seconds, minutes, or hours.  
+  Once the time limit is reached, the process stops. Additionally, users can halt the process in the middle of      capturing.
 
-Users also have the ability to upload recorded videos. The app will then provide bee statistics based on the uploaded video.
+- Users also have the ability to upload recorded videos. The app will then provide bee statistics from the          uploaded video.
 
