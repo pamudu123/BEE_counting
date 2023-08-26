@@ -26,7 +26,7 @@ For efficient object tracking, the **Byte-Track** algorithm was used due to its 
 
 
 | Realtime Camera | Processing | Process Stoped |
-|---------|---------|---------|---------|
+|---------|---------|---------|
 | ![realtime camera image](Results/GUI_images/screenshot_2.png) | ![processing_bee_video](Results/GUI_images/screenshot_4.png) | ![process stop](Results/GUI_images/screenshot_5.png)
 
 
