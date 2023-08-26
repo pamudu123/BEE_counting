@@ -25,9 +25,9 @@ For efficient object tracking, the **Byte-Track** algorithm was used due to its 
 ## GUI
 
 
-| Realtime Camera | Processing | Processing | Process Stoped |
+| Realtime Camera | Processing | Process Stoped |
 |---------|---------|---------|---------|
-| ![realtime camera image](Results/GUI_images/screenshot_2.png) | ![processing_bee_video](Results/GUI_images/screenshot_3.png) | ![processing_bee_video](Results/GUI_images/screenshot_4.png) | ![process stop](Results/GUI_images/screenshot_5.png)
+| ![realtime camera image](Results/GUI_images/screenshot_2.png) | ![processing_bee_video](Results/GUI_images/screenshot_4.png) | ![process stop](Results/GUI_images/screenshot_5.png)
 
 
 The GUI is designed using the PySide6 Python library.
